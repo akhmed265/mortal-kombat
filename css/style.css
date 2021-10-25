@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.game {
+    background-image: url(../img/bg.jpg);
+    height: 100vh;
+    position: relative;
+}
+
+.life-wrapper1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: red;
+    height: 50px;
+    width: 40%;
+
+}
+
+.life1 {
+    width: 90%;
+    height: 50px;
+    background-color: blue;
+    padding-left: 20px;
+}
+
+.name1 {
+    font-size: 20px;
+    line-height: 50px;
+    color: #fff;
+}
+
+.player1 {
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+}
+
+.life-wrapper2 {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: red;
+    height: 50px;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.life2 {
+    width: 90%;
+    height: 50px;
+    background-color: blue;
+    padding-right: 20px;
+    text-align: right;
+ }
+
+ .name2 {
+     font-size: 20px;
+     line-height: 50px;
+     color: #fff;
+ }
+
+.player2 {
+    position:absolute;
+    right: 200px;
+    bottom: 50px;
+    transform: scaleX(-1);
+}
