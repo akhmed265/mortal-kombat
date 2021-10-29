@@ -11,6 +11,9 @@ body {
     background-image: url(../img/bg.jpg);
     height: 100vh;
     position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .life-wrapper1 {
