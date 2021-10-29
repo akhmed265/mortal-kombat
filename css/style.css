@@ -70,6 +70,6 @@ body {
 .player2 {
     position:absolute;
     right: 200px;
-    bottom: 50px;
+    bottom: 29px;
     transform: scaleX(-1);
 }
